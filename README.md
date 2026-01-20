@@ -30,7 +30,7 @@ Dentro do repositório root-config:
 No navegador:
 - ```http://localhost:9000/```
 
-E após a execução do parcel finance-app, deverá ser exibido a tela inicial:
+E após a execução do parcel [finance-app](https://github.com/grupo21-tech-challange-02/finance-app), deverá ser exibido a tela inicial:
 
 <img width="1094" height="655" alt="Captura de Tela 2026-01-19 às 22 32 24" src="https://github.com/user-attachments/assets/d1946a6d-a3d9-45d9-8926-6f2c4b3880fe" />
 
