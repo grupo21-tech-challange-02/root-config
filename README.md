@@ -1,5 +1,24 @@
 O root-config é o projeto principal que orquestra os micro frontends da nossa aplicação. O site em produção pode ser acessado em: https://d1vqzf4765g06r.cloudfront.net/
 
+--- 
+
+### 🐳 Para executar localmente com docker, siga esses passos: [Docker Compose](https://github.com/grupo21-tech-challange-02/docker-compose)
+
+---
+
+### Primeiramente
+
+Crie um diretório chamado tc2;
+
+Dentro desse diretório, clone cada um dos três projetos:
+- ``` git clone https://github.com/grupo21-tech-challange-02/docker-compose.git ```
+- ``` git clone https://github.com/grupo21-tech-challange-02/root-config.git ```
+- ``` git clone https://github.com/grupo21-tech-challange-02/finance-app.git ```
+
+### 🚨 Importante: A execução desse repositório é obrigatória para o funcionamento dos demais micro frontends
+
+---
+
 ### 🏃‍♂️ Passo a passo para executar localmente:
 
 Instalar dependências:
@@ -11,12 +30,11 @@ Dentro do repositório root-config:
 No navegador:
 - ```http://localhost:9000/```
 
-E deverá ser exibido a tela inicial:
+E após a execução do parcel finance-app, deverá ser exibido a tela inicial:
 
 <img width="1094" height="655" alt="Captura de Tela 2026-01-19 às 22 32 24" src="https://github.com/user-attachments/assets/d1946a6d-a3d9-45d9-8926-6f2c4b3880fe" />
 
-### 🚨 Importante:
-- A execução desse repositório é obrigatória para o funcionamento dos demais micro frontends
+---
   
 ### 🚀 Instruções deploy:
 
