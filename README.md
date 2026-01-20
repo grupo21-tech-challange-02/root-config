@@ -2,7 +2,7 @@ O root-config é o projeto principal que orquestra os micro frontends da nossa a
 
 --- 
 
-### 🐳 Para executar localmente com docker, siga esses passos: [Docker Compose](https://github.com/grupo21-tech-challange-02/docker-compose)
+#### 🐳 Para executar localmente com docker, siga esses passos: [Docker Compose](https://github.com/grupo21-tech-challange-02/docker-compose)
 
 ---
 
