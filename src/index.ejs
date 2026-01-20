@@ -13,6 +13,7 @@
   <!-- More info at https://github.com/single-spa/import-map-overrides/blob/main/docs/configuration.md#domain-list -->
   <!-- <meta name="import-map-overrides-domains" content="denylist:prod.example.com" /> -->
 
+  <script src="https://cdn.jsdelivr.net/npm/systemjs@6.14.2/dist/system.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +33,6 @@
       }
     }
   </script>
-  <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@6.0.3/lib/es2015/esm/single-spa.min.js" as="module">
 
   <!-- Add your organization's prod import map URL to this script's src  -->
   <!-- <script type="injector-importmap" src="/importmap.json"></script> -->
@@ -42,7 +42,8 @@
     {
       "imports": {
         "@grupo21/root-config": "//localhost:9000/grupo21-root-config.js",
-        "@grupo21/finance-app": "//localhost:8080/grupo21-finance-app.js"
+        "@grupo21/finance-app": "//localhost:8080/grupo21-finance-app.js",
+        "upload-files": "//localhost:8081/main.js"
       }
     }
   </script>
